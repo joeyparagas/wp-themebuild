@@ -1,0 +1,41 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+
+.standard-logo{
+    margin-top: 35px;
+    font-weight: bold;
+    display: block !important;
+    margin-bottom: 25px;
+}
+
+.top-advert{
+    font-size: 16px;
+}
+
+#page-title .container p{ margin: 0; }
+
+.category-1 #page-title h1{
+    color: yellow;
+}
+
+/* CSS WIDGETS */
+#wp-calendar{ width: 100%; }
+
+/* Fixes due to Guttenberg changes */
+.wp-block-latest-posts li a, .wp-block-archives li a { 
+    background: url("images/icons/widget-link.png") left top no-repeat;
+	border: none !important;
+	color: #444;
+	font-size: 14px;
+    display: inline-block;
+    padding: 0 3px 0 12px;
+}
+.wp-block-latest-posts li, .wp-block-archives li { 
+    list-style: none; 
+    margin:0;
+    padding:4px;
+}
