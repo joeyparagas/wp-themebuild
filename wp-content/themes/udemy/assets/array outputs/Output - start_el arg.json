@@ -1,0 +1,37 @@
+/* 
+This was output from Walker class/start_el function.
+These were print_r from the $args[] values. 
+Arguments came from header.php of wp_nav_menu where walker was being called
+Project was set to not use it so currently disabled
+*/
+
+stdClass Object
+(
+    [menu] =&gt; 
+    WP_Term Object
+        (
+            [term_id] =&gt; 22
+            [name] =&gt; Main Menu
+            [slug] =&gt; main-menu
+            [term_group] =&gt; 0
+            [term_taxonomy_id] =&gt; 22
+            [taxonomy] =&gt; nav_menu
+            [description] =&gt; 
+            [parent] =&gt; 0
+            [count] =&gt; 3
+            [filter] =&gt; raw
+        )
+
+    [container] =&gt; 
+    [container_class] =&gt; 
+    [container_id] =&gt; 
+    [container_aria_label] =&gt; 
+    [menu_class] =&gt; menu
+    [menu_id] =&gt; 
+    [echo] =&gt; 1
+    [fallback_cb] =&gt; 
+    [before] =&gt; 
+    [after] =&gt; 
+    [link_before] =&gt; 
+    [link_after] =&gt; 
+    [items_wrap] =&gt; 

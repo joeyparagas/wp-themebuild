@@ -8,7 +8,7 @@ define( 'JU_DEV_MODE', true );    // define dev mode for $ver, true = prevents c
 include( get_theme_file_path('/includes/front/enqueue.php'));       // code to inc css/js files
 include( get_theme_file_path('/includes/setup.php'));               // code to inc menu/thumbnails
 include( get_theme_file_path('/includes/custom-nav-walker.php'));   // code to inc walker class 
-                                                                    // Currently not being used (see index.php->wp_nav_menu)
+                                                                    // Currently not being used (see header.php->wp_nav_menu)
 include( get_theme_file_path('/includes/widgets.php'));             // code to inc widgets/sidebar
 
 // Hooks

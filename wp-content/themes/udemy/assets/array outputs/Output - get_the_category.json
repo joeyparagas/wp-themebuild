@@ -1,0 +1,56 @@
+Array ( 
+  [0] => WP_Term Object ( 
+      [term_id] => 17 
+      [name] => Consectetur in iusto 
+      [slug] => consectetur-in-iusto 
+      [term_group] => 0 
+      [term_taxonomy_id] => 17 
+      [taxonomy] => category 
+      [description] => Suscipit facere cupiditate enim eum saepe qui dolores eum nesciunt non voluptatem dolores pariatur molestias aut eveniet culpa quae dolore qui placeat quo ut sit ad eligendi ut explicabo natus ea dolores ducimus dolorem illum voluptatibus hic recusandae enim 
+      [parent] => 0 
+      [count] => 8 
+      [filter] => raw 
+      [cat_ID] => 17 
+      [category_count] => 8 
+      [category_description] => Suscipit facere cupiditate enim eum saepe qui dolores eum nesciunt non voluptatem dolores pariatur molestias aut eveniet culpa quae dolore qui placeat quo ut sit ad eligendi ut explicabo natus ea dolores ducimus dolorem illum voluptatibus hic recusandae enim 
+      [cat_name] => Consectetur in iusto 
+      [category_nicename] => consectetur-in-iusto 
+      [category_parent] => 0 )
+
+      [1] => WP_Term Object ( 
+        [term_id] => 15 
+        [name] => Quas quo itaque 
+        [slug] => quas-quo-itaque 
+        [term_group] => 0 
+        [term_taxonomy_id] => 15 
+        [taxonomy] => category 
+        [description] => Consequatur eos quod magni dolorum qui iste harum et est 
+        [parent] => 0 
+        [count] => 8 
+        [filter] => raw 
+        [cat_ID] => 15 
+        [category_count] => 8 
+        [category_description] => Consequatur eos quod magni dolorum qui iste harum et est 
+        [cat_name] => Quas quo itaque 
+        [category_nicename] => quas-quo-itaque 
+        [category_parent] => 0 )   
+
+      [2] => WP_Term Object ( 
+        [term_id] => 19 
+        [name] => Voluptas tempora 
+        [slug] => voluptas-tempora 
+        [term_group] => 0 
+        [term_taxonomy_id] => 19 
+        [taxonomy] => category 
+        [description] => Sint atque aut nobis aut possimus error odit incidunt et ullam vitae similique sint tempore doloremque necessitatibus laudantium sit quidem sequi magni dolores fugit mollitia saepe ut 
+        [parent] => 0 
+        [count] => 11 
+        [filter] => raw 
+        [cat_ID] => 19 
+        [category_count] => 11 
+        [category_description] => Sint atque aut nobis aut possimus error odit incidunt et ullam vitae similique sint tempore doloremque necessitatibus laudantium sit quidem sequi magni dolores fugit mollitia saepe ut 
+        [cat_name] => Voluptas tempora 
+        [category_nicename] => voluptas-tempora 
+        [category_parent] => 0 
+      ) 
+  )

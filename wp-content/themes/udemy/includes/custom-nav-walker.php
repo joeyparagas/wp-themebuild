@@ -10,7 +10,7 @@ class JU_Custom_Nav_Walker extends Walker_Nav_menu {
   
   // overwite default start_el WP function 
   public function start_el(&$output, $item, $depth = 0, $args=[], $id = 0){ 
-    //$args - array values are in index.php->wp_nav_menu
+    //$args - array values are in header.php->wp_nav_menu
     $output .= '<li class="special-class-item">';                       // create li element
     $output .= $args->before;                                           // array values were never set but good practice to insert
                                                                         // other devs can overwrite these settings
