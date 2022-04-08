@@ -1,3 +1,9 @@
+<!-- 
+  This page contains a single page blog article, primary main loop outputting post, 
+  secondary loop (WP Query) showing articles related via category, 
+  comments and comment box, pagination, about the author section.
+ -->
+
 <!-- https://developer.wordpress.org/themes/references/list-of-template-tags/ -->
 <?php get_header(); ?>
 <!-- If you want to use diff header-v2.php use header('v2'); -->
@@ -15,6 +21,7 @@
       <div class="postcontent nobottommargin clearfix">
 
         <?php 
+          // Main/Primary Loop
           if (have_posts()); { 
             while ( have_posts() ) { 
               the_post();
@@ -131,6 +138,7 @@
 
             <!-- Query database for additional posts -->
             <?php 
+            // https://developer.wordpress.org/reference/classes/wp_query/ 
 
               $categories           =     get_the_category(); 
 
@@ -138,7 +146,7 @@
               $rp_query             =     new WP_Query([
                 'posts_per_page'    =>    2,              // shorten number of results from 4 to 2
                 'post__not_in'      =>    [$post->ID ],   // current post viewing does not return in query
-                // check if categories exist then get category ID
+                // check if post is in any categories, if so grab first one and output posts in this cat.
                 'cat'               =>    !empty($categories) ? $categories[0]->term_id : null
               ]);
 
@@ -162,6 +170,7 @@
                       }
                     ?>
                     
+                    <!-- Add title, it's link, date, # of comments and text content of current post/article -->
                     <div class="entry-c">
                       <div class="entry-title">
                         <h4>

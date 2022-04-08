@@ -9,9 +9,12 @@
 	============================================= -->
   <?php wp_head(); ?>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <!-- Document Title
 	============================================= -->
-  <title>Index Template</title>
+  <!-- There is no need for this anymore since setup.php has add_theme_support( 'title-tag' ) -->
+  <!-- <title>Index Template</title> -->
 
 </head>
 
@@ -21,6 +24,7 @@
   <!-- Document Wrapper
   ============================================= -->
   <div id="wrapper" class="clearfix">
+    
     <!-- Top Bar
     ============================================= -->
     <div id="top-bar" class="dark">
@@ -32,11 +36,20 @@
           <!-- Top Links
           ============================================= -->
           <div class="top-links">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+            <!-- Secondary Menu (ul) -->
+            <?php 
+                
+                if (has_nav_menu('secondary')) {
+                  wp_nav_menu([
+                    'theme_location' =>  'secondary',                // name of theme
+                    'container'      =>  false,                      // wrap nav around a div/nav/tag; false = none
+                    'fallback_cb'    =>  false,                      // fallback to default menu; false = no
+                    'depth'          =>  1,                          // how many sub-menus are in the menu; 0=unlimited
+                  //'walker'         =>  new JU_Custom_Nav_Walker()  // call walker class (used to customize submenu vs default WP) 
+                  ]);
+                }
+              ?>
+              <!-- e:Secondary Menu (ul) -->
           </div><!-- .top-links end -->
 
         </div>
@@ -90,11 +103,33 @@
         <!-- Logo
         ============================================= -->
         <div id="logo">
-          <a href="#" class="standard-logo">Udemy</a>
+          <!-- Function that checks if user has uploaded a custom logo to WP admin menu -->
+          <!-- add_theme_support( 'custom-logo' ) must be added to setup.php -->
+          <?php  
+            if (has_custom_logo()) {                           // add user logo if it exists 
+              the_custom_logo();                               // else use default 
+            }else { ?>          
+              <a href="<?php echo home_url( '/'); ?>" class="standard-logo">
+                <!-- bloginfo contains various data of site such as name, url, admin email, etc -->
+                <!-- https://developer.wordpress.org/reference/functions/bloginfo/ -->
+                <?php bloginfo( 'name' );  ?>
+              </a>
+            <?php  
+            }
+          ?>
+          
         </div><!-- #logo end -->
 
         <div class="top-advert">
-          <img src="images/magazine/ad.jpg">
+          <!-- Insert Ad made using plugin WP QUADS -->
+          <!-- Code can be found in their plugin-folder/includes/api.php file -->
+          <!-- Code has to be initialized in setup.php -->
+          <?php 
+            if (function_exists('quads_ad')){
+              echo quads_ad([ 'location' => 'udemy_header' ]);
+            }
+          ?>
+          <!-- <img src="https://via.placeholder.com/728x90.png?text=Check+This+Awesome+Ad+Joey+Made%20at%20https://joeyparagas.com/" alt=""> -->
         </div>
 
       </div>
