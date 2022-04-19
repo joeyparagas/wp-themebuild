@@ -6,6 +6,9 @@
 function ju_customize_register( $wp_customize ) {
     // add Udemy Social Settings customizer menu links 
     ju_social_customizer_section( $wp_customize );
+
+    // runs misc.php function
+    ju_misc_customizer_section( $wp_customize );
 }
 
 ?>

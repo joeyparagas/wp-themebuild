@@ -2,13 +2,14 @@
 
 function ju_social_customizer_section( $wp_customize ){ 
 
+    // Add the database default setting
     $wp_customize->add_setting( 'ju_facebook_handle', [
         // Add settings; default is only one mandatory
         // https://developer.wordpress.org/reference/classes/wp_customize_manager/add_setting/
         'default'   => ''
     ]);
 
-
+    // Add Title name on WP menu
     $wp_customize->add_section( 'ju_social_section', [
         'title'     => __('Udemy Social Settings', 'udemy'),
         'priority'  => 30                                           // Lower the number, higher placement it receives
@@ -22,10 +23,10 @@ function ju_social_customizer_section( $wp_customize ){
         $wp_customize,
         'ju_social_facebook_input', 
         array (
-            'label'     => __( 'Facebook Handle', 'udemy' ),
-            'section'   => 'ju_social_section', 
-            'settings'  => 'ju_facebook_handle', 
-            'type'      => 'text'
+            'label'     => __( 'Facebook Handle', 'udemy' ),        // title of submenu
+            'section'   => 'ju_social_section',                     // callback to section/menu to go under
+            'settings'  => 'ju_facebook_handle',                    // callback to which setting to control
+            'type'      => 'text'                                   // type of input (input text box)
             )
         )
     ); 
