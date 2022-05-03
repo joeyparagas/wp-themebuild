@@ -12,6 +12,15 @@
           <div class="col_half">
             <!-- Output Customizer copyright input box -->
             <?php echo get_theme_mod( 'ju_footer_copyright_text' ); ?><br>
+
+            <!-- Output Customizer link if pdf file exists -->
+            <?php 
+              if ( get_theme_mod('ju_report_file')) { ?>
+                <a href="<?php  echo get_theme_mod( 'ju_report_file' ); ?>">Download Report</a><br>
+            <?php     
+              }
+            ?>
+
             <div class="copyright-links">
 
               <!-- Check Terms of Service Page exists, if user doesn't select a page, then link disappears due to = 0 -->

@@ -1,0 +1,4682 @@
+bject(WP_Customize_Manager)#576 (29) {
+  ["theme":protected]=>
+  object(WP_Theme)#577 (12) {
+    ["update"]=>
+    bool(false)
+    ["theme_root":"WP_Theme":private]=>
+    string(43) "F:\Dev\xampp\htdocs\udemy/wp-content/themes"
+    ["headers":"WP_Theme":private]=>
+    array(13) {
+      ["Name"]=>
+      string(5) "Udemy"
+      ["ThemeURI"]=>
+      string(17) "http://sample.com"
+      ["Description"]=>
+      string(35) "Theme I created using a sample site"
+      ["Author"]=>
+      string(12) "Joey Paragas"
+      ["AuthorURI"]=>
+      string(22) "http://joeyparagas.com"
+      ["Version"]=>
+      string(3) "1.0"
+      ["Template"]=>
+      string(0) ""
+      ["Status"]=>
+      string(0) ""
+      ["Tags"]=>
+      string(244) "black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready"
+      ["TextDomain"]=>
+      string(5) "udemy"
+      ["DomainPath"]=>
+      string(0) ""
+      ["RequiresWP"]=>
+      string(0) ""
+      ["RequiresPHP"]=>
+      string(0) ""
+    }
+    ["headers_sanitized":"WP_Theme":private]=>
+    array(3) {
+      ["Name"]=>
+      string(5) "Udemy"
+      ["TextDomain"]=>
+      string(5) "udemy"
+      ["DomainPath"]=>
+      string(0) ""
+    }
+    ["name_translated":"WP_Theme":private]=>
+    NULL
+    ["errors":"WP_Theme":private]=>
+    NULL
+    ["stylesheet":"WP_Theme":private]=>
+    string(5) "udemy"
+    ["template":"WP_Theme":private]=>
+    string(5) "udemy"
+    ["parent":"WP_Theme":private]=>
+    NULL
+    ["theme_root_uri":"WP_Theme":private]=>
+    NULL
+    ["textdomain_loaded":"WP_Theme":private]=>
+    bool(false)
+    ["cache_hash":"WP_Theme":private]=>
+    string(32) "4421ef30a16827c8ef85cd34c74d408f"
+  }
+  ["original_stylesheet":protected]=>
+  string(5) "udemy"
+  ["previewing":protected]=>
+  bool(true)
+  ["widgets"]=>
+  object(WP_Customize_Widgets)#581 (15) {
+    ["manager"]=>
+    *RECURSION*
+    ["core_widget_id_bases":protected]=>
+    array(17) {
+      [0]=>
+      string(8) "archives"
+      [1]=>
+      string(8) "calendar"
+      [2]=>
+      string(10) "categories"
+      [3]=>
+      string(11) "custom_html"
+      [4]=>
+      string(5) "links"
+      [5]=>
+      string(11) "media_audio"
+      [6]=>
+      string(11) "media_image"
+      [7]=>
+      string(11) "media_video"
+      [8]=>
+      string(4) "meta"
+      [9]=>
+      string(8) "nav_menu"
+      [10]=>
+      string(5) "pages"
+      [11]=>
+      string(15) "recent-comments"
+      [12]=>
+      string(12) "recent-posts"
+      [13]=>
+      string(3) "rss"
+      [14]=>
+      string(6) "search"
+      [15]=>
+      string(9) "tag_cloud"
+      [16]=>
+      string(4) "text"
+    }
+    ["rendered_sidebars":protected]=>
+    array(0) {
+    }
+    ["rendered_widgets":protected]=>
+    array(0) {
+    }
+    ["old_sidebars_widgets":protected]=>
+    array(0) {
+    }
+    ["selective_refreshable_widgets":protected]=>
+    NULL
+    ["setting_id_patterns":protected]=>
+    array(2) {
+      ["widget_instance"]=>
+      string(58) "/^widget_(?P.+?)(?:\[(?P\d+)\])?$/"
+      ["sidebar_widgets"]=>
+      string(43) "/^sidebars_widgets\[(?P.+?)\]$/"
+    }
+    ["before_widget_tags_seen":protected]=>
+    array(0) {
+    }
+    ["sidebar_instance_count":protected]=>
+    array(0) {
+    }
+    ["context_sidebar_instance_number":protected]=>
+    NULL
+    ["current_dynamic_sidebar_id_stack":protected]=>
+    array(0) {
+    }
+    ["rendering_widget_id":protected]=>
+    NULL
+    ["rendering_sidebar_id":protected]=>
+    NULL
+    ["_captured_options":protected]=>
+    array(0) {
+    }
+    ["_is_capturing_option_updates":protected]=>
+    bool(false)
+  }
+  ["nav_menus"]=>
+  object(WP_Customize_Nav_Menus)#403 (3) {
+    ["manager"]=>
+    *RECURSION*
+    ["original_nav_menu_locations":protected]=>
+    array(2) {
+      ["primary"]=>
+      int(22)
+      ["secondary"]=>
+      int(23)
+    }
+    ["preview_nav_menu_instance_args"]=>
+    array(0) {
+    }
+  }
+  ["selective_refresh"]=>
+  object(WP_Customize_Selective_Refresh)#579 (4) {
+    ["manager"]=>
+    *RECURSION*
+    ["partials":protected]=>
+    array(2) {
+      ["custom_logo"]=>
+      object(WP_Customize_Partial)#1022 (11) {
+        ["component"]=>
+        *RECURSION*
+        ["id"]=>
+        string(11) "custom_logo"
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(11) "custom_logo"
+        }
+        ["type"]=>
+        string(7) "default"
+        ["selector"]=>
+        string(17) ".custom-logo-link"
+        ["settings"]=>
+        array(1) {
+          [0]=>
+          string(11) "custom_logo"
+        }
+        ["primary_setting"]=>
+        string(11) "custom_logo"
+        ["capability"]=>
+        NULL
+        ["render_callback"]=>
+        array(2) {
+          [0]=>
+          *RECURSION*
+          [1]=>
+          string(27) "_render_custom_logo_partial"
+        }
+        ["container_inclusive"]=>
+        bool(true)
+        ["fallback_refresh"]=>
+        bool(true)
+      }
+      ["custom_header"]=>
+      object(WP_Customize_Partial)#1045 (11) {
+        ["component"]=>
+        *RECURSION*
+        ["id"]=>
+        string(13) "custom_header"
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(13) "custom_header"
+        }
+        ["type"]=>
+        string(7) "default"
+        ["selector"]=>
+        string(17) "#wp-custom-header"
+        ["settings"]=>
+        array(3) {
+          [0]=>
+          string(12) "header_video"
+          [1]=>
+          string(21) "external_header_video"
+          [2]=>
+          string(12) "header_image"
+        }
+        ["primary_setting"]=>
+        string(12) "header_video"
+        ["capability"]=>
+        NULL
+        ["render_callback"]=>
+        string(24) "the_custom_header_markup"
+        ["container_inclusive"]=>
+        bool(true)
+        ["fallback_refresh"]=>
+        bool(true)
+      }
+    }
+    ["triggered_errors":protected]=>
+    array(0) {
+    }
+    ["current_partial_id":protected]=>
+    NULL
+  }
+  ["settings":protected]=>
+  array(24) {
+    ["active_theme"]=>
+    object(WP_Customize_Filter_Setting)#1010 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(12) "active_theme"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(13) "switch_themes"
+      ["theme_supports"]=>
+      string(0) ""
+      ["default"]=>
+      string(0) ""
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      string(0) ""
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(12) "active_theme"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["blogname"]=>
+    object(WP_Customize_Setting)#1012 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(8) "blogname"
+      ["type"]=>
+      string(6) "option"
+      ["capability"]=>
+      string(14) "manage_options"
+      ["theme_supports"]=>
+      string(0) ""
+      ["default"]=>
+      string(5) "Udemy"
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      string(0) ""
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(8) "blogname"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["blogdescription"]=>
+    object(WP_Customize_Setting)#1014 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(15) "blogdescription"
+      ["type"]=>
+      string(6) "option"
+      ["capability"]=>
+      string(14) "manage_options"
+      ["theme_supports"]=>
+      string(0) ""
+      ["default"]=>
+      string(27) "Just another WordPress site"
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      string(0) ""
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(15) "blogdescription"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["header_text"]=>
+    object(WP_Customize_Setting)#1016 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(11) "header_text"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      array(2) {
+        [0]=>
+        string(11) "custom-logo"
+        [1]=>
+        string(11) "header-text"
+      }
+      ["default"]=>
+      int(1)
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      string(6) "absint"
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(11) "header_text"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["site_icon"]=>
+    object(WP_Customize_Setting)#1019 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(9) "site_icon"
+      ["type"]=>
+      string(6) "option"
+      ["capability"]=>
+      string(14) "manage_options"
+      ["theme_supports"]=>
+      string(0) ""
+      ["default"]=>
+      string(0) ""
+      ["transport"]=>
+      string(11) "postMessage"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      string(0) ""
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(9) "site_icon"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["custom_logo"]=>
+    object(WP_Customize_Setting)#1021 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(11) "custom_logo"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      array(1) {
+        [0]=>
+        string(11) "custom-logo"
+      }
+      ["default"]=>
+      string(0) ""
+      ["transport"]=>
+      string(11) "postMessage"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      string(0) ""
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(11) "custom_logo"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["header_textcolor"]=>
+    object(WP_Customize_Setting)#1024 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(16) "header_textcolor"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      array(2) {
+        [0]=>
+        string(13) "custom-header"
+        [1]=>
+        string(11) "header-text"
+      }
+      ["default"]=>
+      bool(false)
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(26) "_sanitize_header_textcolor"
+      }
+      ["sanitize_js_callback"]=>
+      string(20) "maybe_hash_hex_color"
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(16) "header_textcolor"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["background_color"]=>
+    object(WP_Customize_Setting)#1029 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(16) "background_color"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(17) "custom-background"
+      ["default"]=>
+      bool(false)
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      string(26) "sanitize_hex_color_no_hash"
+      ["sanitize_js_callback"]=>
+      string(20) "maybe_hash_hex_color"
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(16) "background_color"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["header_video"]=>
+    object(WP_Customize_Setting)#1034 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(12) "header_video"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      array(2) {
+        [0]=>
+        string(13) "custom-header"
+        [1]=>
+        string(5) "video"
+      }
+      ["default"]=>
+      string(0) ""
+      ["transport"]=>
+      string(11) "postMessage"
+      ["validate_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(22) "_validate_header_video"
+      }
+      ["sanitize_callback"]=>
+      string(6) "absint"
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(12) "header_video"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["external_header_video"]=>
+    object(WP_Customize_Setting)#1037 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(21) "external_header_video"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      array(2) {
+        [0]=>
+        string(13) "custom-header"
+        [1]=>
+        string(5) "video"
+      }
+      ["default"]=>
+      string(0) ""
+      ["transport"]=>
+      string(11) "postMessage"
+      ["validate_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(31) "_validate_external_header_video"
+      }
+      ["sanitize_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(31) "_sanitize_external_header_video"
+      }
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(21) "external_header_video"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["header_image"]=>
+    object(WP_Customize_Filter_Setting)#1040 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(12) "header_image"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(13) "custom-header"
+      ["default"]=>
+      string(0) ""
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      string(0) ""
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(12) "header_image"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["header_image_data"]=>
+    object(WP_Customize_Header_Image_Setting)#1041 (16) {
+      ["id"]=>
+      string(17) "header_image_data"
+      ["manager"]=>
+      *RECURSION*
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(13) "custom-header"
+      ["default"]=>
+      string(0) ""
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      string(0) ""
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(17) "header_image_data"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["background_image"]=>
+    object(WP_Customize_Setting)#1047 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(16) "background_image"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(17) "custom-background"
+      ["default"]=>
+      bool(false)
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(28) "_sanitize_background_setting"
+      }
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(16) "background_image"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["background_image_thumb"]=>
+    object(WP_Customize_Background_Image_Setting)#1049 (16) {
+      ["id"]=>
+      string(22) "background_image_thumb"
+      ["manager"]=>
+      *RECURSION*
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(17) "custom-background"
+      ["default"]=>
+      string(0) ""
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(28) "_sanitize_background_setting"
+      }
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(22) "background_image_thumb"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["background_preset"]=>
+    object(WP_Customize_Setting)#1052 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(17) "background_preset"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(17) "custom-background"
+      ["default"]=>
+      bool(false)
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(28) "_sanitize_background_setting"
+      }
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(17) "background_preset"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["background_position_x"]=>
+    object(WP_Customize_Setting)#1055 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(21) "background_position_x"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(17) "custom-background"
+      ["default"]=>
+      bool(false)
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(28) "_sanitize_background_setting"
+      }
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(21) "background_position_x"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["background_position_y"]=>
+    object(WP_Customize_Setting)#1057 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(21) "background_position_y"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(17) "custom-background"
+      ["default"]=>
+      bool(false)
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(28) "_sanitize_background_setting"
+      }
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(21) "background_position_y"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["background_size"]=>
+    object(WP_Customize_Setting)#1060 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(15) "background_size"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(17) "custom-background"
+      ["default"]=>
+      bool(false)
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(28) "_sanitize_background_setting"
+      }
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(15) "background_size"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["background_repeat"]=>
+    object(WP_Customize_Setting)#1063 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(17) "background_repeat"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(17) "custom-background"
+      ["default"]=>
+      bool(false)
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(28) "_sanitize_background_setting"
+      }
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(17) "background_repeat"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["background_attachment"]=>
+    object(WP_Customize_Setting)#1066 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(21) "background_attachment"
+      ["type"]=>
+      string(9) "theme_mod"
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(17) "custom-background"
+      ["default"]=>
+      bool(false)
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(28) "_sanitize_background_setting"
+      }
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(21) "background_attachment"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["show_on_front"]=>
+    object(WP_Customize_Setting)#1070 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(13) "show_on_front"
+      ["type"]=>
+      string(6) "option"
+      ["capability"]=>
+      string(14) "manage_options"
+      ["theme_supports"]=>
+      string(0) ""
+      ["default"]=>
+      string(5) "posts"
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      string(0) ""
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(13) "show_on_front"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["page_on_front"]=>
+    object(WP_Customize_Setting)#1072 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(13) "page_on_front"
+      ["type"]=>
+      string(6) "option"
+      ["capability"]=>
+      string(14) "manage_options"
+      ["theme_supports"]=>
+      string(0) ""
+      ["default"]=>
+      string(0) ""
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      string(0) ""
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(13) "page_on_front"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["page_for_posts"]=>
+    object(WP_Customize_Setting)#1074 (16) {
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(14) "page_for_posts"
+      ["type"]=>
+      string(6) "option"
+      ["capability"]=>
+      string(14) "manage_options"
+      ["theme_supports"]=>
+      string(0) ""
+      ["default"]=>
+      string(0) ""
+      ["transport"]=>
+      string(7) "refresh"
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      string(0) ""
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(0) {
+        }
+        ["base"]=>
+        string(14) "page_for_posts"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+    ["custom_css[udemy]"]=>
+    object(WP_Customize_Custom_CSS_Setting)#1077 (17) {
+      ["type"]=>
+      string(10) "custom_css"
+      ["transport"]=>
+      string(11) "postMessage"
+      ["capability"]=>
+      string(8) "edit_css"
+      ["stylesheet"]=>
+      string(5) "udemy"
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(17) "custom_css[udemy]"
+      ["theme_supports"]=>
+      string(0) ""
+      ["default"]=>
+      string(0) ""
+      ["validate_callback"]=>
+      string(0) ""
+      ["sanitize_callback"]=>
+      string(0) ""
+      ["sanitize_js_callback"]=>
+      string(0) ""
+      ["dirty"]=>
+      bool(false)
+      ["id_data":protected]=>
+      array(2) {
+        ["keys"]=>
+        array(1) {
+          [0]=>
+          string(5) "udemy"
+        }
+        ["base"]=>
+        string(10) "custom_css"
+      }
+      ["is_previewed":protected]=>
+      bool(false)
+      ["is_multidimensional_aggregated":protected]=>
+      bool(false)
+      ["_previewed_blog_id":protected]=>
+      NULL
+      ["_original_value":protected]=>
+      NULL
+    }
+  }
+  ["containers":protected]=>
+  array(0) {
+  }
+  ["panels":protected]=>
+  array(1) {
+    ["themes"]=>
+    object(WP_Customize_Themes_Panel)#1007 (12) {
+      ["type"]=>
+      string(6) "themes"
+      ["instance_number"]=>
+      int(1)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(6) "themes"
+      ["priority"]=>
+      int(0)
+      ["capability"]=>
+      string(13) "switch_themes"
+      ["theme_supports"]=>
+      string(0) ""
+      ["title"]=>
+      string(5) "Udemy"
+      ["description"]=>
+      string(276) "
+Looking for a theme? You can search or browse the WordPress.org theme directory, install and preview themes, then activate them right here.
+
+While previewing a new theme, you can continue to tailor things like widgets and menus, and explore theme-specific options.
+
+"
+      ["auto_expand_sole_section"]=>
+      bool(false)
+      ["sections"]=>
+      array(0) {
+      }
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+  }
+  ["components":protected]=>
+  array(2) {
+    [0]=>
+    string(7) "widgets"
+    [1]=>
+    string(9) "nav_menus"
+  }
+  ["sections":protected]=>
+  array(8) {
+    ["installed_themes"]=>
+    object(WP_Customize_Themes_Section)#1008 (15) {
+      ["type"]=>
+      string(6) "themes"
+      ["action"]=>
+      string(9) "installed"
+      ["filter_type"]=>
+      string(5) "local"
+      ["instance_number"]=>
+      int(1)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(16) "installed_themes"
+      ["priority"]=>
+      int(0)
+      ["panel"]=>
+      string(6) "themes"
+      ["capability"]=>
+      string(13) "switch_themes"
+      ["theme_supports"]=>
+      string(0) ""
+      ["title"]=>
+      string(16) "Installed themes"
+      ["description"]=>
+      string(0) ""
+      ["controls"]=>
+      array(0) {
+      }
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+      ["description_hidden"]=>
+      bool(false)
+    }
+    ["wporg_themes"]=>
+    object(WP_Customize_Themes_Section)#1009 (15) {
+      ["type"]=>
+      string(6) "themes"
+      ["action"]=>
+      string(5) "wporg"
+      ["filter_type"]=>
+      string(6) "remote"
+      ["instance_number"]=>
+      int(2)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(12) "wporg_themes"
+      ["priority"]=>
+      int(5)
+      ["panel"]=>
+      string(6) "themes"
+      ["capability"]=>
+      string(14) "install_themes"
+      ["theme_supports"]=>
+      string(0) ""
+      ["title"]=>
+      string(20) "WordPress.org themes"
+      ["description"]=>
+      string(0) ""
+      ["controls"]=>
+      array(0) {
+      }
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+      ["description_hidden"]=>
+      bool(false)
+    }
+    ["title_tagline"]=>
+    object(WP_Customize_Section)#1011 (13) {
+      ["instance_number"]=>
+      int(3)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(13) "title_tagline"
+      ["priority"]=>
+      int(20)
+      ["panel"]=>
+      string(0) ""
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(0) ""
+      ["title"]=>
+      string(13) "Site Identity"
+      ["description"]=>
+      string(0) ""
+      ["controls"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(7) "default"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+      ["description_hidden"]=>
+      bool(false)
+    }
+    ["colors"]=>
+    object(WP_Customize_Section)#1023 (13) {
+      ["instance_number"]=>
+      int(4)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(6) "colors"
+      ["priority"]=>
+      int(40)
+      ["panel"]=>
+      string(0) ""
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(0) ""
+      ["title"]=>
+      string(6) "Colors"
+      ["description"]=>
+      string(0) ""
+      ["controls"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(7) "default"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+      ["description_hidden"]=>
+      bool(false)
+    }
+    ["header_image"]=>
+    object(WP_Customize_Section)#1033 (13) {
+      ["instance_number"]=>
+      int(5)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(12) "header_image"
+      ["priority"]=>
+      int(60)
+      ["panel"]=>
+      string(0) ""
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(13) "custom-header"
+      ["title"]=>
+      string(12) "Header Image"
+      ["description"]=>
+      string(0) ""
+      ["controls"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(7) "default"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+      ["description_hidden"]=>
+      bool(false)
+    }
+    ["background_image"]=>
+    object(WP_Customize_Section)#1046 (13) {
+      ["instance_number"]=>
+      int(6)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(16) "background_image"
+      ["priority"]=>
+      int(80)
+      ["panel"]=>
+      string(0) ""
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(17) "custom-background"
+      ["title"]=>
+      string(16) "Background Image"
+      ["description"]=>
+      string(0) ""
+      ["controls"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(7) "default"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+      ["description_hidden"]=>
+      bool(false)
+    }
+    ["static_front_page"]=>
+    object(WP_Customize_Section)#1069 (13) {
+      ["instance_number"]=>
+      int(7)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(17) "static_front_page"
+      ["priority"]=>
+      int(120)
+      ["panel"]=>
+      string(0) ""
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(0) ""
+      ["title"]=>
+      string(17) "Homepage Settings"
+      ["description"]=>
+      string(300) "You can choose what’s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two Pages. One will become the homepage, and the other will be where your posts are displayed."
+      ["controls"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(7) "default"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(19) "has_published_pages"
+      }
+      ["description_hidden"]=>
+      bool(false)
+    }
+    ["custom_css"]=>
+    object(WP_Customize_Section)#1076 (13) {
+      ["instance_number"]=>
+      int(8)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(10) "custom_css"
+      ["priority"]=>
+      int(200)
+      ["panel"]=>
+      string(0) ""
+      ["capability"]=>
+      string(18) "edit_theme_options"
+      ["theme_supports"]=>
+      string(0) ""
+      ["title"]=>
+      string(14) "Additional CSS"
+      ["description"]=>
+      string(1080) "
+Add your own CSS code here to customize the appearance and layout of your site. Learn more about CSS (opens in a new tab)
+
+When using a keyboard to navigate:
+
+In the editing area, the Tab key enters a tab character.
+To move away from this area, press the Esc key followed by the Tab key.
+Screen reader users: when in forms mode, you may need to press the Esc key twice.
+The edit field automatically highlights code syntax. You can disable this in your user profile (opens in a new tab) to work in plain text mode.
+
+Close
+
+"
+      ["controls"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(7) "default"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+      ["description_hidden"]=>
+      bool(true)
+    }
+  }
+  ["controls":protected]=>
+  array(21) {
+    ["blogname"]=>
+    object(WP_Customize_Control)#1013 (16) {
+      ["instance_number"]=>
+      int(1)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(8) "blogname"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1012 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(8) "blogname"
+          ["type"]=>
+          string(6) "option"
+          ["capability"]=>
+          string(14) "manage_options"
+          ["theme_supports"]=>
+          string(0) ""
+          ["default"]=>
+          string(5) "Udemy"
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          string(0) ""
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(8) "blogname"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1012 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(8) "blogname"
+        ["type"]=>
+        string(6) "option"
+        ["capability"]=>
+        string(14) "manage_options"
+        ["theme_supports"]=>
+        string(0) ""
+        ["default"]=>
+        string(5) "Udemy"
+        ["transport"]=>
+        string(7) "refresh"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        string(0) ""
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(8) "blogname"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(13) "title_tagline"
+      ["label"]=>
+      string(10) "Site Title"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(4) "text"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["blogdescription"]=>
+    object(WP_Customize_Control)#1015 (16) {
+      ["instance_number"]=>
+      int(2)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(15) "blogdescription"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1014 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(15) "blogdescription"
+          ["type"]=>
+          string(6) "option"
+          ["capability"]=>
+          string(14) "manage_options"
+          ["theme_supports"]=>
+          string(0) ""
+          ["default"]=>
+          string(27) "Just another WordPress site"
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          string(0) ""
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(15) "blogdescription"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1014 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(15) "blogdescription"
+        ["type"]=>
+        string(6) "option"
+        ["capability"]=>
+        string(14) "manage_options"
+        ["theme_supports"]=>
+        string(0) ""
+        ["default"]=>
+        string(27) "Just another WordPress site"
+        ["transport"]=>
+        string(7) "refresh"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        string(0) ""
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(15) "blogdescription"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(13) "title_tagline"
+      ["label"]=>
+      string(7) "Tagline"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(4) "text"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["header_text"]=>
+    object(WP_Customize_Control)#1018 (16) {
+      ["instance_number"]=>
+      int(3)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(11) "header_text"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1016 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(11) "header_text"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          array(2) {
+            [0]=>
+            string(11) "custom-logo"
+            [1]=>
+            string(11) "header-text"
+          }
+          ["default"]=>
+          int(1)
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          string(6) "absint"
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(11) "header_text"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1016 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(11) "header_text"
+        ["type"]=>
+        string(9) "theme_mod"
+        ["capability"]=>
+        string(18) "edit_theme_options"
+        ["theme_supports"]=>
+        array(2) {
+          [0]=>
+          string(11) "custom-logo"
+          [1]=>
+          string(11) "header-text"
+        }
+        ["default"]=>
+        int(1)
+        ["transport"]=>
+        string(7) "refresh"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        string(6) "absint"
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(11) "header_text"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(13) "title_tagline"
+      ["label"]=>
+      string(30) "Display Site Title and Tagline"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(8) "checkbox"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["site_icon"]=>
+    object(WP_Customize_Site_Icon_Control)#1020 (25) {
+      ["type"]=>
+      string(9) "site_icon"
+      ["width"]=>
+      int(512)
+      ["height"]=>
+      int(512)
+      ["flex_width"]=>
+      bool(false)
+      ["flex_height"]=>
+      bool(false)
+      ["mime_type"]=>
+      string(5) "image"
+      ["button_labels"]=>
+      array(8) {
+        ["select"]=>
+        string(12) "Select image"
+        ["site_icon"]=>
+        string(16) "Select site icon"
+        ["change"]=>
+        string(12) "Change image"
+        ["default"]=>
+        string(7) "Default"
+        ["remove"]=>
+        string(6) "Remove"
+        ["placeholder"]=>
+        string(17) "No image selected"
+        ["frame_title"]=>
+        string(12) "Select image"
+        ["frame_button"]=>
+        string(12) "Choose image"
+      }
+      ["removed"]=>
+      string(0) ""
+      ["context"]=>
+      NULL
+      ["extensions"]=>
+      array(0) {
+      }
+      ["instance_number"]=>
+      int(4)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(9) "site_icon"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1019 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(9) "site_icon"
+          ["type"]=>
+          string(6) "option"
+          ["capability"]=>
+          string(14) "manage_options"
+          ["theme_supports"]=>
+          string(0) ""
+          ["default"]=>
+          string(0) ""
+          ["transport"]=>
+          string(11) "postMessage"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          string(0) ""
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(9) "site_icon"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1019 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(9) "site_icon"
+        ["type"]=>
+        string(6) "option"
+        ["capability"]=>
+        string(14) "manage_options"
+        ["theme_supports"]=>
+        string(0) ""
+        ["default"]=>
+        string(0) ""
+        ["transport"]=>
+        string(11) "postMessage"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        string(0) ""
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(9) "site_icon"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(60)
+      ["section"]=>
+      string(13) "title_tagline"
+      ["label"]=>
+      string(9) "Site Icon"
+      ["description"]=>
+      string(209) "
+Site Icons are what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. Upload one here!
+
+Site Icons should be square and at least 512 × 512 pixels.
+
+"
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["custom_logo"]=>
+    object(WP_Customize_Cropped_Image_Control)#791 (25) {
+      ["type"]=>
+      string(13) "cropped_image"
+      ["width"]=>
+      int(150)
+      ["height"]=>
+      int(150)
+      ["flex_width"]=>
+      bool(true)
+      ["flex_height"]=>
+      bool(true)
+      ["mime_type"]=>
+      string(5) "image"
+      ["button_labels"]=>
+      array(8) {
+        ["select"]=>
+        string(11) "Select logo"
+        ["site_icon"]=>
+        string(16) "Select site icon"
+        ["change"]=>
+        string(11) "Change logo"
+        ["default"]=>
+        string(7) "Default"
+        ["remove"]=>
+        string(6) "Remove"
+        ["placeholder"]=>
+        string(16) "No logo selected"
+        ["frame_title"]=>
+        string(11) "Select logo"
+        ["frame_button"]=>
+        string(11) "Choose logo"
+      }
+      ["removed"]=>
+      string(0) ""
+      ["context"]=>
+      NULL
+      ["extensions"]=>
+      array(0) {
+      }
+      ["instance_number"]=>
+      int(5)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(11) "custom_logo"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1021 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(11) "custom_logo"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          array(1) {
+            [0]=>
+            string(11) "custom-logo"
+          }
+          ["default"]=>
+          string(0) ""
+          ["transport"]=>
+          string(11) "postMessage"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          string(0) ""
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(11) "custom_logo"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1021 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(11) "custom_logo"
+        ["type"]=>
+        string(9) "theme_mod"
+        ["capability"]=>
+        string(18) "edit_theme_options"
+        ["theme_supports"]=>
+        array(1) {
+          [0]=>
+          string(11) "custom-logo"
+        }
+        ["default"]=>
+        string(0) ""
+        ["transport"]=>
+        string(11) "postMessage"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        string(0) ""
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(11) "custom_logo"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(8)
+      ["section"]=>
+      string(13) "title_tagline"
+      ["label"]=>
+      string(4) "Logo"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["display_header_text"]=>
+    object(WP_Customize_Control)#1027 (16) {
+      ["instance_number"]=>
+      int(6)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(19) "display_header_text"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1024 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(16) "header_textcolor"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          array(2) {
+            [0]=>
+            string(13) "custom-header"
+            [1]=>
+            string(11) "header-text"
+          }
+          ["default"]=>
+          bool(false)
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          array(2) {
+            [0]=>
+            *RECURSION*
+            [1]=>
+            string(26) "_sanitize_header_textcolor"
+          }
+          ["sanitize_js_callback"]=>
+          string(20) "maybe_hash_hex_color"
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(16) "header_textcolor"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1024 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(16) "header_textcolor"
+        ["type"]=>
+        string(9) "theme_mod"
+        ["capability"]=>
+        string(18) "edit_theme_options"
+        ["theme_supports"]=>
+        array(2) {
+          [0]=>
+          string(13) "custom-header"
+          [1]=>
+          string(11) "header-text"
+        }
+        ["default"]=>
+        bool(false)
+        ["transport"]=>
+        string(7) "refresh"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        array(2) {
+          [0]=>
+          *RECURSION*
+          [1]=>
+          string(26) "_sanitize_header_textcolor"
+        }
+        ["sanitize_js_callback"]=>
+        string(20) "maybe_hash_hex_color"
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(16) "header_textcolor"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(40)
+      ["section"]=>
+      string(13) "title_tagline"
+      ["label"]=>
+      string(30) "Display Site Title and Tagline"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(8) "checkbox"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["header_textcolor"]=>
+    object(WP_Customize_Color_Control)#1028 (18) {
+      ["type"]=>
+      string(5) "color"
+      ["statuses"]=>
+      array(1) {
+        [""]=>
+        string(7) "Default"
+      }
+      ["mode"]=>
+      string(4) "full"
+      ["instance_number"]=>
+      int(7)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(16) "header_textcolor"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1024 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(16) "header_textcolor"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          array(2) {
+            [0]=>
+            string(13) "custom-header"
+            [1]=>
+            string(11) "header-text"
+          }
+          ["default"]=>
+          bool(false)
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          array(2) {
+            [0]=>
+            *RECURSION*
+            [1]=>
+            string(26) "_sanitize_header_textcolor"
+          }
+          ["sanitize_js_callback"]=>
+          string(20) "maybe_hash_hex_color"
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(16) "header_textcolor"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1024 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(16) "header_textcolor"
+        ["type"]=>
+        string(9) "theme_mod"
+        ["capability"]=>
+        string(18) "edit_theme_options"
+        ["theme_supports"]=>
+        array(2) {
+          [0]=>
+          string(13) "custom-header"
+          [1]=>
+          string(11) "header-text"
+        }
+        ["default"]=>
+        bool(false)
+        ["transport"]=>
+        string(7) "refresh"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        array(2) {
+          [0]=>
+          *RECURSION*
+          [1]=>
+          string(26) "_sanitize_header_textcolor"
+        }
+        ["sanitize_js_callback"]=>
+        string(20) "maybe_hash_hex_color"
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(16) "header_textcolor"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(6) "colors"
+      ["label"]=>
+      string(17) "Header Text Color"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["background_color"]=>
+    object(WP_Customize_Color_Control)#1032 (18) {
+      ["type"]=>
+      string(5) "color"
+      ["statuses"]=>
+      array(1) {
+        [""]=>
+        string(7) "Default"
+      }
+      ["mode"]=>
+      string(4) "full"
+      ["instance_number"]=>
+      int(8)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(16) "background_color"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1029 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(16) "background_color"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          string(17) "custom-background"
+          ["default"]=>
+          bool(false)
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          string(26) "sanitize_hex_color_no_hash"
+          ["sanitize_js_callback"]=>
+          string(20) "maybe_hash_hex_color"
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(16) "background_color"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1029 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(16) "background_color"
+        ["type"]=>
+        string(9) "theme_mod"
+        ["capability"]=>
+        string(18) "edit_theme_options"
+        ["theme_supports"]=>
+        string(17) "custom-background"
+        ["default"]=>
+        bool(false)
+        ["transport"]=>
+        string(7) "refresh"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        string(26) "sanitize_hex_color_no_hash"
+        ["sanitize_js_callback"]=>
+        string(20) "maybe_hash_hex_color"
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(16) "background_color"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(6) "colors"
+      ["label"]=>
+      string(16) "Background Color"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["header_video"]=>
+    object(WP_Customize_Media_Control)#1042 (18) {
+      ["type"]=>
+      string(5) "media"
+      ["mime_type"]=>
+      string(5) "video"
+      ["button_labels"]=>
+      array(7) {
+        ["select"]=>
+        string(12) "Select video"
+        ["change"]=>
+        string(12) "Change video"
+        ["default"]=>
+        string(7) "Default"
+        ["remove"]=>
+        string(6) "Remove"
+        ["placeholder"]=>
+        string(17) "No video selected"
+        ["frame_title"]=>
+        string(12) "Select video"
+        ["frame_button"]=>
+        string(12) "Choose video"
+      }
+      ["instance_number"]=>
+      int(9)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(12) "header_video"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1034 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(12) "header_video"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          array(2) {
+            [0]=>
+            string(13) "custom-header"
+            [1]=>
+            string(5) "video"
+          }
+          ["default"]=>
+          string(0) ""
+          ["transport"]=>
+          string(11) "postMessage"
+          ["validate_callback"]=>
+          array(2) {
+            [0]=>
+            *RECURSION*
+            [1]=>
+            string(22) "_validate_header_video"
+          }
+          ["sanitize_callback"]=>
+          string(6) "absint"
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(12) "header_video"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1034 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(12) "header_video"
+        ["type"]=>
+        string(9) "theme_mod"
+        ["capability"]=>
+        string(18) "edit_theme_options"
+        ["theme_supports"]=>
+        array(2) {
+          [0]=>
+          string(13) "custom-header"
+          [1]=>
+          string(5) "video"
+        }
+        ["default"]=>
+        string(0) ""
+        ["transport"]=>
+        string(11) "postMessage"
+        ["validate_callback"]=>
+        array(2) {
+          [0]=>
+          *RECURSION*
+          [1]=>
+          string(22) "_validate_header_video"
+        }
+        ["sanitize_callback"]=>
+        string(6) "absint"
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(12) "header_video"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(12) "header_image"
+      ["label"]=>
+      string(12) "Header Video"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["active_callback"]=>
+      string(22) "is_header_video_active"
+    }
+    ["external_header_video"]=>
+    object(WP_Customize_Control)#1043 (16) {
+      ["instance_number"]=>
+      int(10)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(21) "external_header_video"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1037 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(21) "external_header_video"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          array(2) {
+            [0]=>
+            string(13) "custom-header"
+            [1]=>
+            string(5) "video"
+          }
+          ["default"]=>
+          string(0) ""
+          ["transport"]=>
+          string(11) "postMessage"
+          ["validate_callback"]=>
+          array(2) {
+            [0]=>
+            *RECURSION*
+            [1]=>
+            string(31) "_validate_external_header_video"
+          }
+          ["sanitize_callback"]=>
+          array(2) {
+            [0]=>
+            *RECURSION*
+            [1]=>
+            string(31) "_sanitize_external_header_video"
+          }
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(21) "external_header_video"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1037 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(21) "external_header_video"
+        ["type"]=>
+        string(9) "theme_mod"
+        ["capability"]=>
+        string(18) "edit_theme_options"
+        ["theme_supports"]=>
+        array(2) {
+          [0]=>
+          string(13) "custom-header"
+          [1]=>
+          string(5) "video"
+        }
+        ["default"]=>
+        string(0) ""
+        ["transport"]=>
+        string(11) "postMessage"
+        ["validate_callback"]=>
+        array(2) {
+          [0]=>
+          *RECURSION*
+          [1]=>
+          string(31) "_validate_external_header_video"
+        }
+        ["sanitize_callback"]=>
+        array(2) {
+          [0]=>
+          *RECURSION*
+          [1]=>
+          string(31) "_sanitize_external_header_video"
+        }
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(21) "external_header_video"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(12) "header_image"
+      ["label"]=>
+      string(0) ""
+      ["description"]=>
+      string(24) "Or, enter a YouTube URL:"
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(3) "url"
+      ["active_callback"]=>
+      string(22) "is_header_video_active"
+    }
+    ["header_image"]=>
+    object(WP_Customize_Header_Image_Control)#1044 (23) {
+      ["type"]=>
+      string(6) "header"
+      ["uploaded_headers"]=>
+      NULL
+      ["default_headers"]=>
+      NULL
+      ["mime_type"]=>
+      string(5) "image"
+      ["button_labels"]=>
+      array(8) {
+        ["select"]=>
+        string(12) "Select image"
+        ["site_icon"]=>
+        string(16) "Select site icon"
+        ["change"]=>
+        string(12) "Change image"
+        ["default"]=>
+        string(7) "Default"
+        ["remove"]=>
+        string(6) "Remove"
+        ["placeholder"]=>
+        string(17) "No image selected"
+        ["frame_title"]=>
+        string(12) "Select image"
+        ["frame_button"]=>
+        string(12) "Choose image"
+      }
+      ["removed"]=>
+      string(13) "remove-header"
+      ["context"]=>
+      NULL
+      ["extensions"]=>
+      array(0) {
+      }
+      ["instance_number"]=>
+      int(11)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(12) "header_image"
+      ["settings"]=>
+      array(2) {
+        ["default"]=>
+        object(WP_Customize_Filter_Setting)#1040 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(12) "header_image"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          string(13) "custom-header"
+          ["default"]=>
+          string(0) ""
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          string(0) ""
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(12) "header_image"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+        ["data"]=>
+        object(WP_Customize_Header_Image_Setting)#1041 (16) {
+          ["id"]=>
+          string(17) "header_image_data"
+          ["manager"]=>
+          *RECURSION*
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          string(13) "custom-header"
+          ["default"]=>
+          string(0) ""
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          string(0) ""
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(17) "header_image_data"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      string(7) "default"
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(12) "header_image"
+      ["label"]=>
+      string(12) "Header Image"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["background_image"]=>
+    object(WP_Customize_Background_Image_Control)#1051 (21) {
+      ["type"]=>
+      string(10) "background"
+      ["mime_type"]=>
+      string(5) "image"
+      ["button_labels"]=>
+      array(8) {
+        ["select"]=>
+        string(12) "Select image"
+        ["site_icon"]=>
+        string(16) "Select site icon"
+        ["change"]=>
+        string(12) "Change image"
+        ["default"]=>
+        string(7) "Default"
+        ["remove"]=>
+        string(6) "Remove"
+        ["placeholder"]=>
+        string(17) "No image selected"
+        ["frame_title"]=>
+        string(12) "Select image"
+        ["frame_button"]=>
+        string(12) "Choose image"
+      }
+      ["removed"]=>
+      string(0) ""
+      ["context"]=>
+      NULL
+      ["extensions"]=>
+      array(0) {
+      }
+      ["instance_number"]=>
+      int(12)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(16) "background_image"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1047 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(16) "background_image"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          string(17) "custom-background"
+          ["default"]=>
+          bool(false)
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          array(2) {
+            [0]=>
+            *RECURSION*
+            [1]=>
+            string(28) "_sanitize_background_setting"
+          }
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(16) "background_image"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1047 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(16) "background_image"
+        ["type"]=>
+        string(9) "theme_mod"
+        ["capability"]=>
+        string(18) "edit_theme_options"
+        ["theme_supports"]=>
+        string(17) "custom-background"
+        ["default"]=>
+        bool(false)
+        ["transport"]=>
+        string(7) "refresh"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        array(2) {
+          [0]=>
+          *RECURSION*
+          [1]=>
+          string(28) "_sanitize_background_setting"
+        }
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(16) "background_image"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(16) "background_image"
+      ["label"]=>
+      string(16) "Background Image"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["background_preset"]=>
+    object(WP_Customize_Control)#1054 (16) {
+      ["instance_number"]=>
+      int(13)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(17) "background_preset"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1052 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(17) "background_preset"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          string(17) "custom-background"
+          ["default"]=>
+          bool(false)
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          array(2) {
+            [0]=>
+            *RECURSION*
+            [1]=>
+            string(28) "_sanitize_background_setting"
+          }
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(17) "background_preset"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1052 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(17) "background_preset"
+        ["type"]=>
+        string(9) "theme_mod"
+        ["capability"]=>
+        string(18) "edit_theme_options"
+        ["theme_supports"]=>
+        string(17) "custom-background"
+        ["default"]=>
+        bool(false)
+        ["transport"]=>
+        string(7) "refresh"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        array(2) {
+          [0]=>
+          *RECURSION*
+          [1]=>
+          string(28) "_sanitize_background_setting"
+        }
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(17) "background_preset"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(16) "background_image"
+      ["label"]=>
+      string(6) "Preset"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(5) {
+        ["default"]=>
+        string(7) "Default"
+        ["fill"]=>
+        string(11) "Fill Screen"
+        ["fit"]=>
+        string(13) "Fit to Screen"
+        ["repeat"]=>
+        string(6) "Repeat"
+        ["custom"]=>
+        string(6) "Custom"
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(6) "select"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["background_position"]=>
+    object(WP_Customize_Background_Position_Control)#1059 (16) {
+      ["type"]=>
+      string(19) "background_position"
+      ["instance_number"]=>
+      int(14)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(19) "background_position"
+      ["settings"]=>
+      array(2) {
+        ["x"]=>
+        object(WP_Customize_Setting)#1055 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(21) "background_position_x"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          string(17) "custom-background"
+          ["default"]=>
+          bool(false)
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          array(2) {
+            [0]=>
+            *RECURSION*
+            [1]=>
+            string(28) "_sanitize_background_setting"
+          }
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(21) "background_position_x"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+        ["y"]=>
+        object(WP_Customize_Setting)#1057 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(21) "background_position_y"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          string(17) "custom-background"
+          ["default"]=>
+          bool(false)
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          array(2) {
+            [0]=>
+            *RECURSION*
+            [1]=>
+            string(28) "_sanitize_background_setting"
+          }
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(21) "background_position_y"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      string(7) "default"
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(16) "background_image"
+      ["label"]=>
+      string(14) "Image Position"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["background_size"]=>
+    object(WP_Customize_Control)#1062 (16) {
+      ["instance_number"]=>
+      int(15)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(15) "background_size"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1060 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(15) "background_size"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          string(17) "custom-background"
+          ["default"]=>
+          bool(false)
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          array(2) {
+            [0]=>
+            *RECURSION*
+            [1]=>
+            string(28) "_sanitize_background_setting"
+          }
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(15) "background_size"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1060 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(15) "background_size"
+        ["type"]=>
+        string(9) "theme_mod"
+        ["capability"]=>
+        string(18) "edit_theme_options"
+        ["theme_supports"]=>
+        string(17) "custom-background"
+        ["default"]=>
+        bool(false)
+        ["transport"]=>
+        string(7) "refresh"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        array(2) {
+          [0]=>
+          *RECURSION*
+          [1]=>
+          string(28) "_sanitize_background_setting"
+        }
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(15) "background_size"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(16) "background_image"
+      ["label"]=>
+      string(10) "Image Size"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(3) {
+        ["auto"]=>
+        string(8) "Original"
+        ["contain"]=>
+        string(13) "Fit to Screen"
+        ["cover"]=>
+        string(11) "Fill Screen"
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(6) "select"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["background_repeat"]=>
+    object(WP_Customize_Control)#1065 (16) {
+      ["instance_number"]=>
+      int(16)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(17) "background_repeat"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1063 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(17) "background_repeat"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          string(17) "custom-background"
+          ["default"]=>
+          bool(false)
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          array(2) {
+            [0]=>
+            *RECURSION*
+            [1]=>
+            string(28) "_sanitize_background_setting"
+          }
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(17) "background_repeat"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1063 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(17) "background_repeat"
+        ["type"]=>
+        string(9) "theme_mod"
+        ["capability"]=>
+        string(18) "edit_theme_options"
+        ["theme_supports"]=>
+        string(17) "custom-background"
+        ["default"]=>
+        bool(false)
+        ["transport"]=>
+        string(7) "refresh"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        array(2) {
+          [0]=>
+          *RECURSION*
+          [1]=>
+          string(28) "_sanitize_background_setting"
+        }
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(17) "background_repeat"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(16) "background_image"
+      ["label"]=>
+      string(23) "Repeat Background Image"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(8) "checkbox"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["background_attachment"]=>
+    object(WP_Customize_Control)#1068 (16) {
+      ["instance_number"]=>
+      int(17)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(21) "background_attachment"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1066 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(21) "background_attachment"
+          ["type"]=>
+          string(9) "theme_mod"
+          ["capability"]=>
+          string(18) "edit_theme_options"
+          ["theme_supports"]=>
+          string(17) "custom-background"
+          ["default"]=>
+          bool(false)
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          array(2) {
+            [0]=>
+            *RECURSION*
+            [1]=>
+            string(28) "_sanitize_background_setting"
+          }
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(21) "background_attachment"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1066 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(21) "background_attachment"
+        ["type"]=>
+        string(9) "theme_mod"
+        ["capability"]=>
+        string(18) "edit_theme_options"
+        ["theme_supports"]=>
+        string(17) "custom-background"
+        ["default"]=>
+        bool(false)
+        ["transport"]=>
+        string(7) "refresh"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        array(2) {
+          [0]=>
+          *RECURSION*
+          [1]=>
+          string(28) "_sanitize_background_setting"
+        }
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(21) "background_attachment"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(16) "background_image"
+      ["label"]=>
+      string(16) "Scroll with Page"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(8) "checkbox"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["show_on_front"]=>
+    object(WP_Customize_Control)#1071 (16) {
+      ["instance_number"]=>
+      int(18)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(13) "show_on_front"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1070 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(13) "show_on_front"
+          ["type"]=>
+          string(6) "option"
+          ["capability"]=>
+          string(14) "manage_options"
+          ["theme_supports"]=>
+          string(0) ""
+          ["default"]=>
+          string(5) "posts"
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          string(0) ""
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(13) "show_on_front"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1070 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(13) "show_on_front"
+        ["type"]=>
+        string(6) "option"
+        ["capability"]=>
+        string(14) "manage_options"
+        ["theme_supports"]=>
+        string(0) ""
+        ["default"]=>
+        string(5) "posts"
+        ["transport"]=>
+        string(7) "refresh"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        string(0) ""
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(13) "show_on_front"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(17) "static_front_page"
+      ["label"]=>
+      string(22) "Your homepage displays"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(2) {
+        ["posts"]=>
+        string(17) "Your latest posts"
+        ["page"]=>
+        string(13) "A static page"
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(5) "radio"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["page_on_front"]=>
+    object(WP_Customize_Control)#1073 (16) {
+      ["instance_number"]=>
+      int(19)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(13) "page_on_front"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1072 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(13) "page_on_front"
+          ["type"]=>
+          string(6) "option"
+          ["capability"]=>
+          string(14) "manage_options"
+          ["theme_supports"]=>
+          string(0) ""
+          ["default"]=>
+          string(0) ""
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          string(0) ""
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(13) "page_on_front"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1072 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(13) "page_on_front"
+        ["type"]=>
+        string(6) "option"
+        ["capability"]=>
+        string(14) "manage_options"
+        ["theme_supports"]=>
+        string(0) ""
+        ["default"]=>
+        string(0) ""
+        ["transport"]=>
+        string(7) "refresh"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        string(0) ""
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(13) "page_on_front"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(17) "static_front_page"
+      ["label"]=>
+      string(8) "Homepage"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(true)
+      ["json"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(14) "dropdown-pages"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["page_for_posts"]=>
+    object(WP_Customize_Control)#1075 (16) {
+      ["instance_number"]=>
+      int(20)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(14) "page_for_posts"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Setting)#1074 (16) {
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(14) "page_for_posts"
+          ["type"]=>
+          string(6) "option"
+          ["capability"]=>
+          string(14) "manage_options"
+          ["theme_supports"]=>
+          string(0) ""
+          ["default"]=>
+          string(0) ""
+          ["transport"]=>
+          string(7) "refresh"
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          string(0) ""
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(0) {
+            }
+            ["base"]=>
+            string(14) "page_for_posts"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      object(WP_Customize_Setting)#1074 (16) {
+        ["manager"]=>
+        *RECURSION*
+        ["id"]=>
+        string(14) "page_for_posts"
+        ["type"]=>
+        string(6) "option"
+        ["capability"]=>
+        string(14) "manage_options"
+        ["theme_supports"]=>
+        string(0) ""
+        ["default"]=>
+        string(0) ""
+        ["transport"]=>
+        string(7) "refresh"
+        ["validate_callback"]=>
+        string(0) ""
+        ["sanitize_callback"]=>
+        string(0) ""
+        ["sanitize_js_callback"]=>
+        string(0) ""
+        ["dirty"]=>
+        bool(false)
+        ["id_data":protected]=>
+        array(2) {
+          ["keys"]=>
+          array(0) {
+          }
+          ["base"]=>
+          string(14) "page_for_posts"
+        }
+        ["is_previewed":protected]=>
+        bool(false)
+        ["is_multidimensional_aggregated":protected]=>
+        bool(false)
+        ["_previewed_blog_id":protected]=>
+        NULL
+        ["_original_value":protected]=>
+        NULL
+      }
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(17) "static_front_page"
+      ["label"]=>
+      string(10) "Posts page"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(0) {
+      }
+      ["allow_addition"]=>
+      bool(true)
+      ["json"]=>
+      array(0) {
+      }
+      ["type"]=>
+      string(14) "dropdown-pages"
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+    ["custom_css"]=>
+    object(WP_Customize_Code_Editor_Control)#1078 (18) {
+      ["type"]=>
+      string(11) "code_editor"
+      ["code_type"]=>
+      string(8) "text/css"
+      ["editor_settings"]=>
+      array(0) {
+      }
+      ["instance_number"]=>
+      int(21)
+      ["manager"]=>
+      *RECURSION*
+      ["id"]=>
+      string(10) "custom_css"
+      ["settings"]=>
+      array(1) {
+        ["default"]=>
+        object(WP_Customize_Custom_CSS_Setting)#1077 (17) {
+          ["type"]=>
+          string(10) "custom_css"
+          ["transport"]=>
+          string(11) "postMessage"
+          ["capability"]=>
+          string(8) "edit_css"
+          ["stylesheet"]=>
+          string(5) "udemy"
+          ["manager"]=>
+          *RECURSION*
+          ["id"]=>
+          string(17) "custom_css[udemy]"
+          ["theme_supports"]=>
+          string(0) ""
+          ["default"]=>
+          string(0) ""
+          ["validate_callback"]=>
+          string(0) ""
+          ["sanitize_callback"]=>
+          string(0) ""
+          ["sanitize_js_callback"]=>
+          string(0) ""
+          ["dirty"]=>
+          bool(false)
+          ["id_data":protected]=>
+          array(2) {
+            ["keys"]=>
+            array(1) {
+              [0]=>
+              string(5) "udemy"
+            }
+            ["base"]=>
+            string(10) "custom_css"
+          }
+          ["is_previewed":protected]=>
+          bool(false)
+          ["is_multidimensional_aggregated":protected]=>
+          bool(false)
+          ["_previewed_blog_id":protected]=>
+          NULL
+          ["_original_value":protected]=>
+          NULL
+        }
+      }
+      ["setting"]=>
+      string(7) "default"
+      ["capability"]=>
+      NULL
+      ["priority"]=>
+      int(10)
+      ["section"]=>
+      string(10) "custom_css"
+      ["label"]=>
+      string(8) "CSS code"
+      ["description"]=>
+      string(0) ""
+      ["choices"]=>
+      array(0) {
+      }
+      ["input_attrs"]=>
+      array(1) {
+        ["aria-describedby"]=>
+        string(111) "editor-keyboard-trap-help-1 editor-keyboard-trap-help-2 editor-keyboard-trap-help-3 editor-keyboard-trap-help-4"
+      }
+      ["allow_addition"]=>
+      bool(false)
+      ["json"]=>
+      array(0) {
+      }
+      ["active_callback"]=>
+      array(2) {
+        [0]=>
+        *RECURSION*
+        [1]=>
+        string(15) "active_callback"
+      }
+    }
+  }
+  ["registered_panel_types":protected]=>
+  array(2) {
+    [0]=>
+    string(18) "WP_Customize_Panel"
+    [1]=>
+    string(25) "WP_Customize_Themes_Panel"
+  }
+  ["registered_section_types":protected]=>
+  array(3) {
+    [0]=>
+    string(20) "WP_Customize_Section"
+    [1]=>
+    string(28) "WP_Customize_Sidebar_Section"
+    [2]=>
+    string(27) "WP_Customize_Themes_Section"
+  }
+  ["registered_control_types":protected]=>
+  array(11) {
+    [0]=>
+    string(26) "WP_Customize_Color_Control"
+    [1]=>
+    string(26) "WP_Customize_Media_Control"
+    [2]=>
+    string(27) "WP_Customize_Upload_Control"
+    [3]=>
+    string(26) "WP_Customize_Image_Control"
+    [4]=>
+    string(37) "WP_Customize_Background_Image_Control"
+    [5]=>
+    string(40) "WP_Customize_Background_Position_Control"
+    [6]=>
+    string(34) "WP_Customize_Cropped_Image_Control"
+    [7]=>
+    string(30) "WP_Customize_Site_Icon_Control"
+    [8]=>
+    string(26) "WP_Customize_Theme_Control"
+    [9]=>
+    string(32) "WP_Customize_Code_Editor_Control"
+    [10]=>
+    string(30) "WP_Customize_Date_Time_Control"
+  }
+  ["preview_url":protected]=>
+  NULL
+  ["return_url":protected]=>
+  NULL
+  ["autofocus":protected]=>
+  array(0) {
+  }
+  ["messenger_channel":protected]=>
+  string(9) "preview-0"
+  ["autosaved":protected]=>
+  bool(false)
+  ["branching":protected]=>
+  bool(false)
+  ["settings_previewed":protected]=>
+  bool(true)
+  ["saved_starter_content_changeset":protected]=>
+  bool(false)
+  ["_post_values":"WP_Customize_Manager":private]=>
+  array(0) {
+  }
+  ["_changeset_uuid":"WP_Customize_Manager":private]=>
+  string(36) "a5a249be-236d-48e9-a9ce-1b35bf860cae"
+  ["_changeset_post_id":"WP_Customize_Manager":private]=>
+  bool(false)
+  ["_changeset_data":"WP_Customize_Manager":private]=>
+  array(0) {
+  }
+  ["pending_starter_content_settings_ids":protected]=>
+  array(0) {
+  }
+  ["store_changeset_revision":protected]=>
+  NULL
+}

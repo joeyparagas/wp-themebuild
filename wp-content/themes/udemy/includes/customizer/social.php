@@ -12,7 +12,8 @@ function ju_social_customizer_section( $wp_customize ){
     // Add Title name on WP menu
     $wp_customize->add_section( 'ju_social_section', [
         'title'     => __('Udemy Social Settings', 'udemy'),
-        'priority'  => 30                                           // Lower the number, higher placement it receives
+        'priority'  => 30,                                          // Lower the number, higher placement it receives
+        'panel'     => 'udemy'
     ]);
 
     // Create an input field; 

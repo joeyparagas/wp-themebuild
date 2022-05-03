@@ -26,6 +26,18 @@ function ju_enqueue() {
   wp_enqueue_style('ju_responsive');
   wp_enqueue_style('ju_custom');
 
+  // Use inline css styling
+  // Loads file in head tag if specific file is enqueued
+
+  $read_more_color = get_theme_mod( 'ju_read_more_color' );     // grab color of add_setting id
+  wp_add_inline_style( 
+    'ju_custom',                                                // load if this exists; this points to custom.css file
+    // Load CSS styling here 
+    // This uses template literal
+    'a.more-link { color:' . $read_more_color . '; border-color: ' . $read_more_color . '; }' 
+  );
+
+
   // Register scripts
   wp_register_script('ju_plugins',  $uri . '/assets/js/plugins.js',[], $ver, true ); 
   wp_register_script('ju_functions',  $uri . '/assets/js/functions.js',[], $ver, true ); 
@@ -34,5 +46,7 @@ function ju_enqueue() {
   wp_enqueue_script( 'jquery' );
   wp_enqueue_script( 'ju_plugins' );
   wp_enqueue_script( 'ju_functions' );
+
+
 }
 ?>
