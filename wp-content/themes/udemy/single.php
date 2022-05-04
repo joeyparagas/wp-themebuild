@@ -31,7 +31,7 @@
                                                                         // echo get_author_posts_url(get_the_author_meta('ID'));
         ?>
 
-        <div class="single-post nobottommargin">
+        <div id="post-<?php the_ID(); ?>" <?php post_class( 'single-post nobottommargin' ); ?>>
 
           <!-- Single Post
           ============================================= -->
@@ -40,7 +40,7 @@
             <!-- Entry Title
             ============================================= -->
             <div class="entry-title">
-              <h2><?php the_title(); ?></h2>
+              <h2><?php the_title(); ?> test</h2>
             </div><!-- .entry-title end -->
 
             <!-- Entry Meta
