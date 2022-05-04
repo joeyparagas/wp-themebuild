@@ -8,27 +8,53 @@
 
   <div class="content-wrap">
 
-    <div class="section header-stick bottommargin-lg clearfix" style="padding: 20px 0;">
-      <div>
-        <div class="container clearfix">
-          <span class="badge badge-danger bnews-title">Breaking News:</span>
+    <!-- Using Get Most Popular Post plug-in -->
+    <?php 
+    // Check to see if index is not a single page and is the home page & if function exists & if customizer setting is on
+    if( !is_single() && is_home() 
+        && function_exists( 'wpp_get_mostpopular') 
+        && get_theme_mod( 'ju_show_header_popular_posts' )  ){ 
+      // Parameters can be found at:
+      // https://github.com/cabrerahector/wordpress-popular-posts/wiki/2.-Template-tags#wpp_get_mostpopular
+      
+      wpp_get_mostpopular([                         // run plugin function
 
-          <div class="fslider bnews-slider nobottommargin" data-speed="800" data-pause="6000" data-arrows="false"
-            data-pagi="false">
-            <div class="flexslider">
-              <div class="slider-wrap">
-                <div class="slide"><a href="#"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </strong></a></div>
-                <div class="slide"><a href="#"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </strong></a></div>
-                <div class="slide"><a href="#"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </strong></a></div>
+        // Starting tags of html parameter
+        // Note: Variable title is inserted/concatenated in the <span> tags
+        'wpp_start'     => '
+        <div class="section header-stick bottommargin-lg clearfix" style="padding: 20px 0;">
+          <div>
+            <div class="container clearfix">
+              <span class="badge badge-danger bnews-title">' . get_theme_mod( 'ju_popular_post_widget_title' ) . '</span>
+
+              <div class="fslider bnews-slider nobottommargin" data-speed="800" data-pause="6000" data-arrows="false"
+                data-pagi="false">
+                <div class="flexslider">
+                  <div class="slider-wrap">
+        ',
+        // Closing tags of html parameter
+        'wpp_end'       => '
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+        </div>        
+        ',
+        // Inside portion where post data will be displayed parameter
+        'post_html'     => '
+        <div class="slide">
+          <a href="{url}">
+            <strong>{text_title}</strong>
+          </a>
         </div>
-      </div>
-    </div>
+        '
+
+      ]);
+    ?>
+
+    <?php 
+    } ?>
 
     <div class="container clearfix">
 

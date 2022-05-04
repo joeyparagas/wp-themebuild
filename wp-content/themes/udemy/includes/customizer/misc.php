@@ -25,6 +25,16 @@ function ju_misc_customizer_section( $wp_customize ) {
     $wp_customize->add_setting('ju_footer_privacy_page', [
         'default'   => '0'                                                      // set value to 0 so WP doesn't set value 
     ]);
+    // Popular Widget Enable/Disable
+    $wp_customize->add_setting('ju_show_header_popular_posts', [
+        'default'   => false                                                    // set to false to hide popular posts
+    ]);
+    // Popular Widget Title
+    $wp_customize->add_setting('ju_popular_post_widget_title', [
+        'default'   => 'Breaking News'                                          // Default title of popular post
+    ]);
+    
+    
 
 
     // Have user adjust font-color of "Read More" html links
@@ -68,7 +78,7 @@ function ju_misc_customizer_section( $wp_customize ) {
             'settings'  => 'ju_header_show_cart',                               // callback to which setting to control 
             'type'      => 'checkbox',                                          // type of input
             'choices'   => [                                                    // types of checkbox choices
-                'yes'   => 'Yes'                                                    // value will be checked against user selection
+                'yes'   => __( 'Yes', 'udemy' )                                     // value will be checked against user selection
                                                                                     // since there's only 1 selection, then Yes 
             ]
         ]
@@ -101,9 +111,34 @@ function ju_misc_customizer_section( $wp_customize ) {
             'label'     => __( 'Footer Privacy page', 'udemy' ),                // title of sub-menu
             'section'   => 'ju_misc_section',                                   // callback to section/menu to go under
             'settings'  => 'ju_footer_privacy_page',                            // callback to which setting to control 
-            'type'      => 'dropdown-pages'                                      // dropdown showing all pages available
+            'type'      => 'dropdown-pages'                                     // dropdown showing all pages available
         ]
     ));
+    $wp_customize->add_control( new WP_Customize_Control(
+        $wp_customize,
+        'ju_show_header_popular_posts_input', 
+        [
+            'label'     => __( 'Popular Posts', 'udemy' ),                          // title of sub-menu
+            'section'   => 'ju_misc_section',                                   // callback to section/menu to go under
+            'settings'  => 'ju_show_header_popular_posts',                      // callback to which setting to control 
+            'type'      => 'checkbox',                                          // checkbox type 
+            'choices'   => [                                                    // types of checkbox choices
+                'yes'   => __( 'Yes', 'udemy' )   
+            ]
+        ]
+    ));
+    $wp_customize->add_control( new WP_Customize_Control(
+        $wp_customize,
+        'ju_popular_post_widget_title_input', 
+        [
+            'label'     => __( 'Popular Posts Widget Title', 'udemy' ),         // title of sub-menu
+            'section'   => 'ju_misc_section',                                   // callback to section/menu to go under
+            'settings'  => 'ju_popular_post_widget_title'                       // callback to which setting to control  
+        ]
+    ));
+
+
+
 
     // Controller for color customizer
     // https://developer.wordpress.org/reference/classes/wp_customize_color_control/
