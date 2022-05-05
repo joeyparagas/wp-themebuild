@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attribute(); ?>>
+<html <?php language_attributes(); ?>>
 
 <head>
 

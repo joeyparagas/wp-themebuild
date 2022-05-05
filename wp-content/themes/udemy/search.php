@@ -24,8 +24,6 @@
       ============================================= -->
       <div class="postcontent nobottommargin clearfix">
 
-
-
         <!-- Search Box
         ============================================= -->
         <div class="col_full card">
